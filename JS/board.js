@@ -1,0 +1,10 @@
+let Gameboard = {};
+Gameboard.pieces = new Array(BRD_SQ_NUM);
+Gameboard.side = COLOURS.BOTH;
+Gameboard.fiftyMove = 0;
+Gameboard.hisPly = 0;
+Gameboard.history = [];
+Gameboard.castlePermission = 0;
+Gameboard.enPassant = SQUARES.NO_SQ;
+Gameboard.ply = 0;
+Gameboard.posKey = 0;
